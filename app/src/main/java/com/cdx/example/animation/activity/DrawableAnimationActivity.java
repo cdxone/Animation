@@ -12,6 +12,7 @@ public class  DrawableAnimationActivity extends BaseListActivty {
         ArrayList<ItemObject> data = new ArrayList<>();
         data.add(new ItemObject("帧动画基本知识",DrawableAnimationKnowledgeActivity.class));
         data.add(new ItemObject("帧动画XML方式实现数字变化",DrawableXMLNumberActivity.class));
+        data.add(new ItemObject("帧动画代码方式实现数字变化",DrawableCodeNumberActivity.class));
 
         mMyListView.setData(data);
     }
