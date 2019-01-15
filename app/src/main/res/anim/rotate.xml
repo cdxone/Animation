@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="200"
+    android:repeatMode="restart"
+    android:repeatCount="200"
+    android:interpolator="@android:anim/linear_interpolator"
+    />
+
+    <!--
+    android:fromDegress:旋转起始的角度
+    android:toDegress:旋转终止的角度
+    android:pivotX:旋转的X中心点
+    android:pivotY:旋转的Y中心点
+    android:duration：设置动画持续时间
+    -->

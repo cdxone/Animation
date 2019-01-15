@@ -21,6 +21,8 @@ public class TweenAnimationActivity extends BaseListActivty {
         data.add(new ItemObject("补间动画代码方式实现位移变化",TweenCodeTranslateActivity.class));
         data.add(new ItemObject("补间动画Xml方式实现透明度变化",TweenXmlAlphaActivity.class));
         data.add(new ItemObject("补间动画代码方式实现透明度变化",TweenCodeAlphaActivity.class));
+        data.add(new ItemObject("补间动画xml方式实现旋转变化",TweenXmlRotateActivity.class));
+        data.add(new ItemObject("补间动画代码方式实现旋转变化",TweenCodeRotateActivity.class));
 
         mMyListView.setData(data);
     }

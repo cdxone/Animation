@@ -28,7 +28,9 @@
         <activity android:name=".activity.TweenXmlTranslateActivity" />
         <activity android:name=".activity.TweenCodeTranslateActivity" />
         <activity android:name=".activity.TweenXmlAlphaActivity" />
-        <activity android:name=".activity.TweenCodeAlphaActivity"></activity>
+        <activity android:name=".activity.TweenCodeAlphaActivity" />
+        <activity android:name=".activity.TweenXmlRotateActivity" />
+        <activity android:name=".activity.TweenCodeRotateActivity"></activity>
     </application>
 
 </manifest>
