@@ -23,7 +23,8 @@
         <activity android:name=".activity.DrawableCodeNumberActivity" />
         <activity android:name=".activity.TweenAnimationActivity" />
         <activity android:name=".activity.TweenAnimationKnowledgeActivity" />
-        <activity android:name=".activity.TweenXmlScaleActivity"></activity>
+        <activity android:name=".activity.TweenXmlScaleActivity" />
+        <activity android:name=".activity.TweenCodeScaleActivity"></activity>
     </application>
 
 </manifest>

@@ -16,6 +16,7 @@ public class TweenAnimationActivity extends BaseListActivty {
         ArrayList<ItemObject> data = new ArrayList<>();
         data.add(new ItemObject("补间动画基本知识",TweenAnimationKnowledgeActivity.class));
         data.add(new ItemObject("补间动画XML方式实现大小变化",TweenXmlScaleActivity.class));
+        data.add(new ItemObject("补间动画代码方式实现大小变化",TweenCodeScaleActivity.class));
 
         mMyListView.setData(data);
     }
