@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.AnimationKnowledgeActivity"></activity>
+        <activity android:name=".activity.AnimationKnowledgeActivity" />
+        <activity android:name=".activity.DrawableAnimationActivity" />
+        <activity android:name=".activity.DrawableAnimationKnowledgeActivity" />
+        <activity android:name=".activity.DrawableXMLNumberActivity"></activity>
     </application>
 
 </manifest>

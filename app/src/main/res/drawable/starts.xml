@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+    <!--
+    注意：
+    1、帧动画的xml文件放在drawable文件夹下。
+    2、oneshot:一枪：控制是否是循环播放，如果是true:表示不循环播放。false:表示循环播放。
+    3、其中duration这个属性必须要设置，否则会出现崩溃的现象。
+    -->
+    <item android:drawable="@drawable/num_1" android:duration="500"/>
+    <item android:drawable="@drawable/num_2" android:duration="500"/>
+    <item android:drawable="@drawable/num_3" android:duration="500"/>
+    <item android:drawable="@drawable/num_4" android:duration="500"/>
+    <item android:drawable="@drawable/num_5" android:duration="500"/>
+
+</animation-list>

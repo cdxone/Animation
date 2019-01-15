@@ -1,7 +1,10 @@
 package com.cdx.example.animation;
 
 
+import android.graphics.drawable.Drawable;
+
 import com.cdx.example.animation.activity.AnimationKnowledgeActivity;
+import com.cdx.example.animation.activity.DrawableAnimationActivity;
 
 import java.util.ArrayList;
 
@@ -15,7 +18,7 @@ public class MainActivity extends BaseListActivty {
 
         ArrayList<ItemObject> data = new ArrayList<>();
         data.add(new ItemObject("动画的基本知识",AnimationKnowledgeActivity.class));
-
+        data.add(new ItemObject("帧动画", DrawableAnimationActivity.class));
         mMyListView.setData(data);
     }
 }
