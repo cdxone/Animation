@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="1"
+    android:toAlpha="0"
+    android:repeatCount="100"
+    android:repeatMode="reverse"
+    android:duration="500"
+    />
+    <!--
+        注意
+        1、如果只需要设置大小，位移，透明度，旋转，只需要设置对应的标签就好，不需要<set>标签。
+     -->

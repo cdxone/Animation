@@ -8,7 +8,7 @@
     tools:context=".activity.TweenCodeScaleActivity">
 
     <Button
-        android:id="@+id/btn_scale"
+        android:id="@+id/btn_alpha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="利用代码实现大小变化"

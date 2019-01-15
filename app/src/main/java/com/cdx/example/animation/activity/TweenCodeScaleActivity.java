@@ -30,14 +30,14 @@ public class TweenCodeScaleActivity extends AppCompatActivity implements View.On
     }
 
     private void initView() {
-        findViewById(R.id.btn_scale).setOnClickListener(this);
+        findViewById(R.id.btn_alpha).setOnClickListener(this);
         mIv = findViewById(R.id.iv);
     }
 
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (id == R.id.btn_scale){
+        if (id == R.id.btn_alpha){
             //构造函数如下,可以选择其中的一个
             //public ScaleAnimation(float fromX, float toX, float fromY, float toY)
             //public ScaleAnimation(float fromX, float toX, float fromY, float toY,float pivotX, float pivotY)

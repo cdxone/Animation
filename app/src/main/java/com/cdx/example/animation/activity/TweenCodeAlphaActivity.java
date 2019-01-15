@@ -1,29 +1,31 @@
 package com.cdx.example.animation.activity;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.cdx.example.animation.R;
 
-public class TweenXmlScaleActivity extends AppCompatActivity implements View.OnClickListener {
+public class TweenCodeAlphaActivity extends AppCompatActivity implements View.OnClickListener{
+
 
     private Context mContext;
     private ImageView mIv;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tween_xml_scale);
+        setContentView(R.layout.activity_tween_code_alpha);
 
         initParamsAndValues();
-
         initView();
     }
+
 
     private void initParamsAndValues() {
         mContext = this;
@@ -37,11 +39,13 @@ public class TweenXmlScaleActivity extends AppCompatActivity implements View.OnC
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (id == R.id.btn_alpha){//大小变化
-            //1、加载动画。
-            Animation rotate = AnimationUtils.loadAnimation(this,R.anim.scale);
-            //2、给ImageView设置动画。
-            mIv.startAnimation(rotate);
+        if (id == R.id.btn_alpha){//透明度变化
+            AlphaAnimation alphaAnimation = new AlphaAnimation(1,0);
+            alphaAnimation.setDuration(2000);
+            alphaAnimation.setRepeatCount(3);
+            alphaAnimation.setRepeatMode(Animation.REVERSE);
+
+            mIv.startAnimation(alphaAnimation);
         }
     }
 }

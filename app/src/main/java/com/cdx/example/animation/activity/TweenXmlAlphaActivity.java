@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import com.cdx.example.animation.R;
 
-public class TweenXmlScaleActivity extends AppCompatActivity implements View.OnClickListener {
+public class TweenXmlAlphaActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Context mContext;
     private ImageView mIv;
@@ -18,8 +18,7 @@ public class TweenXmlScaleActivity extends AppCompatActivity implements View.OnC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tween_xml_scale);
-
+        setContentView(R.layout.activity_tween_xml_alpha);
         initParamsAndValues();
 
         initView();
@@ -37,11 +36,9 @@ public class TweenXmlScaleActivity extends AppCompatActivity implements View.OnC
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (id == R.id.btn_alpha){//大小变化
-            //1、加载动画。
-            Animation rotate = AnimationUtils.loadAnimation(this,R.anim.scale);
-            //2、给ImageView设置动画。
-            mIv.startAnimation(rotate);
+        if (id == R.id.btn_alpha){//透明度变化
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.alpha);
+            mIv.startAnimation(animation);
         }
     }
 }

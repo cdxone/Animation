@@ -2,8 +2,11 @@
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:interpolator="@android:anim/accelerate_decelerate_interpolator"
     android:repeatMode="restart"
-
     >
+    <!--
+        注意
+        1、如果只需要设置大小，位移，透明度，旋转，只需要设置对应的标签就好，不需要<set>标签。
+    -->
     <!-- set属性的介绍：
         1、android:interpolator：差值器
         2、android:startOffSet:动画开始之前等待多少秒

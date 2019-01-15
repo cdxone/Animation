@@ -3,6 +3,10 @@
     android:fillAfter="true"
     android:interpolator="@android:anim/bounce_interpolator"
     >
+    <!--
+        注意
+        1、如果只需要设置大小，位移，透明度，旋转，只需要设置对应的标签就好，不需要<set>标签。
+    -->
 
     <!--
         1、android:fromXDelta：平移的X的起始位置
