@@ -30,7 +30,8 @@
         <activity android:name=".activity.TweenXmlAlphaActivity" />
         <activity android:name=".activity.TweenCodeAlphaActivity" />
         <activity android:name=".activity.TweenXmlRotateActivity" />
-        <activity android:name=".activity.TweenCodeRotateActivity"></activity>
+        <activity android:name=".activity.TweenCodeRotateActivity" />
+        <activity android:name=".activity.TweenXmlZuheActivity"></activity>
     </application>
 
 </manifest>
