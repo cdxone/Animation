@@ -24,7 +24,9 @@
         <activity android:name=".activity.TweenAnimationActivity" />
         <activity android:name=".activity.TweenAnimationKnowledgeActivity" />
         <activity android:name=".activity.TweenXmlScaleActivity" />
-        <activity android:name=".activity.TweenCodeScaleActivity"></activity>
+        <activity android:name=".activity.TweenCodeScaleActivity" />
+        <activity android:name=".activity.TweenXmlTranslateActivity" />
+        <activity android:name=".activity.TweenCodeTranslateActivity"></activity>
     </application>
 
 </manifest>

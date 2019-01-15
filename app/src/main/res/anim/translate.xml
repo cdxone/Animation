@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/bounce_interpolator"
+    >
+
+    <!--
+        1、android:fromXDelta：平移的X的起始位置
+        2、android:toXDelta：平移的X的终止位置
+        3、android:fromYDelta：平移的Y的起始位置
+        4、android:toYDelta:平移的Y的终止位置
+        5、android:duration：设置动画持续时间
+        -->
+
+    <!--
+        1、要想实现重复的动画，必须要将repeatCount和RepeatMode写在translate中，而不要写在set中。
+    -->
+    <translate
+        android:fromXDelta="100"
+        android:toXDelta="500"
+        android:fromYDelta="200"
+        android:toYDelta="1000"
+        android:duration="3000"
+        android:repeatMode="restart"
+        android:repeatCount="3"
+        />
+</set>
