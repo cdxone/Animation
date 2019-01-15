@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:repeatMode="restart"
+
+    >
+    <!-- set属性的介绍：
+        1、android:interpolator：差值器
+        2、android:startOffSet:动画开始之前等待多少秒
+        3、android:fillAfter：如果fillAfter设为true，则动画执行后，控件将停留在动画结束的状态
+        4、android:fillBefore：如果fillBefore设为true，则动画执行后，控件将回到动画开始的状态
+        5、android:repeatCount(int repeatCount)：设置动画重复的次数
+        6、android:duration：设置动画持续时间
+    -->
+    <scale
+        android:fromXScale="1.0"
+        android:toXScale="0.1"
+        android:fromYScale="1.0"
+        android:toYScale="0.1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="3000"
+        android:repeatCount="3"
+        />
+    <!--
+        android:fromXScale：缩放的X的起始位置
+        android:toXScale：缩放的X的终止位置
+        android:frimYScale：缩放的Y的起始位置
+        android:toYScale：缩放的Y的终止位置
+        android:pivotY：缩放的Y点
+        android:pivotX：缩放的X点
+        android:duration：设置动画持续时间
+    -->
+</set>

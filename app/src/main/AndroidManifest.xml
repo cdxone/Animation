@@ -20,7 +20,10 @@
         <activity android:name=".activity.DrawableAnimationActivity" />
         <activity android:name=".activity.DrawableAnimationKnowledgeActivity" />
         <activity android:name=".activity.DrawableXMLNumberActivity" />
-        <activity android:name=".activity.DrawableCodeNumberActivity"></activity>
+        <activity android:name=".activity.DrawableCodeNumberActivity" />
+        <activity android:name=".activity.TweenAnimationActivity" />
+        <activity android:name=".activity.TweenAnimationKnowledgeActivity" />
+        <activity android:name=".activity.TweenXmlScaleActivity"></activity>
     </application>
 
 </manifest>
