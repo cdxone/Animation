@@ -35,7 +35,12 @@
         <activity android:name=".activity.TweenInfiniteActivity" />
         <activity android:name=".activity.TweenSelfActivity" />
         <activity android:name=".activity.TweenSelfKnowledgeActivity" />
-        <activity android:name=".activity.TweenSelfRotateActivity"></activity>
+        <activity android:name=".activity.TweenSelfRotateActivity" />
+        <activity android:name=".activity.PropertyAnimationActivity" />
+        <activity android:name=".activity.PropertyAnimationKnowledgeActivity" />
+        <activity android:name=".activity.PropertyValueAnimatorActivity" />
+        <activity android:name=".activity.PropertyObjectAnimatorActivity" />
+        <activity android:name=".activity.PropertyObjectAnimator2Activity"></activity>
     </application>
 
 </manifest>

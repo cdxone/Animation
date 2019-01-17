@@ -37,4 +37,10 @@
             6、applyToCanvas(Canvas canvas)：把Camera所做的变换应用到Canvas上
         </答案>
     </问题>
+    <问题>
+        <标题>x,y,z坐标系的方向为？</标题>
+        <答案>
+            请看pic中的图片。
+        </答案>
+    </问题>
 </问题集>
