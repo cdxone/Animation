@@ -25,6 +25,7 @@ public class TweenAnimationActivity extends BaseListActivty {
         data.add(new ItemObject("补间动画代码方式实现旋转变化",TweenCodeRotateActivity.class));
         data.add(new ItemObject("补间动画xml方式显示“组合”动画",TweenXmlZuheActivity.class));
         data.add(new ItemObject("补间动画实现无限动画",TweenInfiniteActivity.class));
+        data.add(new ItemObject("自定义补间动画",TweenSelfActivity.class));
 
         mMyListView.setData(data);
     }

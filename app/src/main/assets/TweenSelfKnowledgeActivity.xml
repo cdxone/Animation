@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<问题集>
+    <问题>
+        <标题>补件动画的4种形式，旋转，缩放，渐变，平移。你发现他们有一个共同的特点是什么？</标题>
+        <答案>
+            1、就是他们都是在同一个平面上。
+        </答案>
+    </问题>
+    <问题>
+        <标题>如果我们想要实现在三维空间上的旋转,如何实现？</标题>
+        <答案>
+            1、自定义补件动画。
+        </答案>
+    </问题>
+    <问题>
+        <标题>如何进行自定义补件动画？</标题>
+        <答案>
+             1、继承Animation
+             2、重写applyTrasnformation(float interpolatedTime,Transformation t) 两个参数介绍如下：
+            interpolatedTime：代表了动画的时间进行比。不管动画实际的持续时间如何，当动画播放时，该参数总是从0-1
+            Transformation：代表了补间动画在不同时刻对图形或者组件的变形程度
+             3、Transformation里面封装了Matrix对象，对它包装的Matrix进行位移，倾斜，旋转等变化时，
+            Transformation将会控制对应的图片或者视图进行响应的变换。
+             4、为了控制图片或者视图进行三维空间的变换，还需要借助于Android提供的一个Camera
+            Camera并非代表手机摄像头，而是一个空间变换工具，功能类似于Matrix 1、自定义补件动画。
+        </答案>
+    </问题>
+    <问题>
+        <标题>Camera提供的方法？</标题>
+        <答案>
+            1、getMatrix(Matrix matrix):将Camera所做的变换应用到指定的matrix上
+            2、rotateX(float deg):rotateX:以(0.0)为中心，绕X轴进行选择
+            3、rotateY(float deg):以(0.0)为中心，绕Y轴进行选择
+            4、rotateZ(float deg):以(0.0)为中心，旋转（此处和Matrix旋转原理一样，只不过反向相反，为逆时针）
+            5、translate(float x,float y,float z)：使目标组件在三维空间进行位移变换
+            （相当于是一个标准，比如X轴，Y轴，Z轴等）
+            6、applyToCanvas(Canvas canvas)：把Camera所做的变换应用到Canvas上
+        </答案>
+    </问题>
+</问题集>
