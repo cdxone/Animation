@@ -41,7 +41,8 @@
         <activity android:name=".activity.PropertyValueAnimatorActivity" />
         <activity android:name=".activity.PropertyObjectAnimatorActivity" />
         <activity android:name=".activity.PropertyObjectAnimator2Activity" />
-        <activity android:name=".activity.PropertyObjectAnimatorAllActivity"></activity>
+        <activity android:name=".activity.PropertyObjectAnimatorAllActivity" />
+        <activity android:name=".activity.PropertyObjectAnimatorXmlAllActivity"></activity>
     </application>
 
 </manifest>

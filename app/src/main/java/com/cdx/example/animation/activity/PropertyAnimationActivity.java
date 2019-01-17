@@ -17,7 +17,8 @@ public class PropertyAnimationActivity extends BaseListActivty {
         data.add(new ItemObject("属性动画中ValueAnimator的使用",PropertyValueAnimatorActivity.class));
         data.add(new ItemObject("属性动画中ObjectAnimator的使用",PropertyObjectAnimatorActivity.class));
         data.add(new ItemObject("属性动画中ObjectAnimator实现摇一摇",PropertyObjectAnimator2Activity.class));
-        data.add(new ItemObject("属性动画中ObjectAnimator实现组合动画",PropertyObjectAnimatorAllActivity.class));
+        data.add(new ItemObject("属性动画中ObjectAnimator利用代码实现组合动画",PropertyObjectAnimatorAllActivity.class));
+        data.add(new ItemObject("属性动画中ObjectAnimator利用Xml实现组合动画",PropertyObjectAnimatorXmlAllActivity.class));
 
         mMyListView.setData(data);
     }

@@ -120,4 +120,24 @@
             4、with(Animator anim):将现有的动画和传入的动画一起执行。
         </答案>
     </问题>
+    <问题>
+        <标题>属性动画的xml文件放在哪？</标题>
+        <答案>
+            1、注意是animator文件夹，不是anim文件夹。
+        </答案>
+    </问题>
+    <问题>
+        <标题>属性动画的xml文件放在哪？</标题>
+        <答案>
+            1、注意是animator文件夹，不是anim文件夹。
+        </答案>
+    </问题>
+    <问题>
+        <标题>属性动画的xml文件对应着3种标签，分别为什么？</标题>
+        <答案>
+            1、 valueAnimator对应代码中的ValueAnimator。
+            2、objectAnimator 对应代码中的ObjectAnimator。
+            3、set 对应代码中的AnimatorSet。
+        </答案>
+    </问题>
 </问题集>
