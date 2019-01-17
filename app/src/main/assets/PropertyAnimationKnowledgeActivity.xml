@@ -99,4 +99,25 @@
             一定要创建get/set方法。
         </答案>
     </问题>
+    <问题>
+        <标题>实现组合动画依靠什么类?</标题>
+        <答案>
+            AnimatorSet。
+        </答案>
+    </问题>
+    <问题>
+        <标题>AnimationSet类这个类提供了一个play（）方法，参数和返回值是什么？</标题>
+        <答案>
+            参数是Animation，返回值是AnimationBuild。
+        </答案>
+    </问题>
+    <问题>
+        <标题>Animator.Builder中包含4个方法分别为什么？</标题>
+        <答案>
+            1、after(Animator anim) :将现有的动画插入到传入的动画后执行。
+            2、after(long delay)：将现有的动画指定毫秒后执行。
+            3、before(Animator anim):将现有的动画插入到传入的动画前面执行。
+            4、with(Animator anim):将现有的动画和传入的动画一起执行。
+        </答案>
+    </问题>
 </问题集>
