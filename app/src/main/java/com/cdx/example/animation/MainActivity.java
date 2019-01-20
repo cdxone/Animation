@@ -1,8 +1,6 @@
 package com.cdx.example.animation;
 
 
-import android.graphics.drawable.Drawable;
-
 import com.cdx.example.animation.activity.AnimationKnowledgeActivity;
 import com.cdx.example.animation.activity.DrawableAnimationActivity;
 import com.cdx.example.animation.activity.PropertyAnimationActivity;

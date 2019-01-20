@@ -14,7 +14,7 @@ public class TweenSelfActivity extends BaseListActivty {
     protected void initData() {
         ArrayList<ItemObject> data = new ArrayList<>();
         data.add(new ItemObject("自定义补间动画知识",TweenSelfKnowledgeActivity.class));
-        data.add(new ItemObject("自定义补间动画知识",TweenSelfRotateActivity.class));
+        data.add(new ItemObject("自定义补间动画",TweenSelfRotateActivity.class));
 
         mMyListView.setData(data);
     }
